@@ -1,0 +1,27 @@
+{
+  "name": "agalyomarov/posts",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Agalyomarov\\Posts\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Agaly Omarov",
+      "email": "omaraly971215@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.1"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Agalyomarov\\Posts\\PostServiceProvider"
+      ]
+    }
+  }
+}
